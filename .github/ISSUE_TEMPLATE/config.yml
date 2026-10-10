@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Help using Crossly
+    url: https://crossly.net/guides
+    about: Connecting marketplaces, crossposting, orders and settings.
+  - name: API documentation
+    url: https://crossly.net/docs
+    about: Endpoints, authentication and webhooks.
+  - name: Report a security vulnerability
+    url: https://github.com/crossly-dev/.github/blob/main/SECURITY.md
+    about: Please report privately, not in a public issue.

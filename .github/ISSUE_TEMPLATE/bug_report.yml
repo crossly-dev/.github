@@ -1,0 +1,26 @@
+name: Bug report
+description: Something in this repository doesn't work as documented.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Smallest example that shows it
+      description: Code or commands. Remove API keys, tokens and cookies first.
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The package version, and your language or runtime version.
+    validations:
+      required: true
